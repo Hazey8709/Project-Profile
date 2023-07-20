@@ -9,12 +9,12 @@ body {
 
 /*!                   Mobile Version                          */
 
-/*?   (M)      Nav Bar           */
+/**   (M)      Nav Bar           */
 #nav {
-    /* border: 0.1rem solid blue; */
+    /* border: 0.1rem solid white; */
     /* position: fixed; */
     background-color: black;
-    width: 100%;
+    /* width: 100%; */
     height: 4rem;
 }
 
@@ -45,7 +45,7 @@ body {
     background-color: grey;
 }
 
-/*?  (M)         Profile Bar              */
+/**  (M)         Profile Bar              */
 #profileBar {
     background-color: black;
     width: 100%;
@@ -61,7 +61,7 @@ body {
     height: 8rem;
 }
 
-/*?   (M)            Links          */
+/**   (M)            Links          */
 .iconLinksCont {
     border: 0.1rem outset white;
     border-radius: 0.5rem;
@@ -72,11 +72,12 @@ body {
     background-color: white;
     margin: 0 auto;
     margin-top: 0.5rem;
-    width: 14rem;
+    width: 15rem;
+    height: 3rem;
 }
 
 .iconLinksCont > a:hover {
-    border: 0.1rem outset black;
+    /* border: 0.1rem outset black; */
     background-color: rgb(169, 168, 168);
     border-radius: 0.5rem;
 }
@@ -111,17 +112,28 @@ body {
     padding: 0.5rem;
 }
 
-/*?   Link Pages    */
+/**   Link Pages    */
 #linkPagesCont {
     /* border: 0.1rem solid white; */
     border-radius: 0.1rem;
+    background-color: black;
+    height: 5rem;
     text-align: center;
+    margin-top: 2rem;
+}
+
+.linkSection1 {
+    margin-top: 0.8rem;
+}
+
+.linkSection2 {
     margin-top: 1rem;
+    padding: 0.1rem;
 }
 
 .linkPage {
     color: white;
-    margin: 1rem;
+    padding: 1rem;
     text-decoration: none;
     font-weight: bold;
 }
@@ -130,88 +142,52 @@ body {
     color: red;
 }
 
-/*?  (M)         Main Content            */
+/*!  (M)               Main Content            */
 #mainCont {
     padding: 0.5rem;
 }
 
+/** (M)    Welcome title Auto type   */
 .titleCont {
-    border: 0.2rem double rgb(255, 255, 255);
+    border: 0.4rem double rgb(255, 255, 255);
     border-top: none;
+    border-bottom: none;
     border-radius: 10rem;
     background-color: black;
     color: white;
     text-align: center;
     margin: 0 auto;
-    margin-top: 1rem;
+    margin-top: 5rem;
     font-size: 48px;
-    padding: 0.3rem;
+    padding: 0.5rem;
 }
 
-/**     Auto Text       */
 .autoInput {
     font-size: 38px;
     font-family: cursive;
+    padding: rem;
+    cursor: pointer;
 }
 
-/**      Flip Cards          */
-.flip-cardCont {
-    border: 0.3rem inset black;
-    border-radius: 1rem;
-    margin: 0 auto;
-    margin-top: 5rem;
-    padding: 2rem;
-    background-color: rgba(57, 56, 56, 0.333);
-    width: 200px;
-    height: 200px;
-    perspective: 1000px;
+.welcomePageText {
+    margin-top: 4rem;
+    text-indent: 1rem;
+    font-size: 18px;
 }
 
-.flip-inner {
-    position: relative;
-    border-radius: 1rem;
-    margin: 0 auto;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 1px 1px 10px 1px white;
+.welcomePageText:first-letter {
+    font-size: 32px;
 }
 
-.flip-cardCont:hover .flip-inner {
-    transform: rotateY(180deg);
-}
-
-.flip-front,
-.flip-back {
-    border-radius: 1rem;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-
-.flip-front {
-    background-color: rgb(7, 243, 243);
-    color: black;
-}
-
-.flip-back {
-    background-color: rgba(0, 0, 0, 0.596);
-    color: white;
-    transform: rotateY(180deg);
-}
-
-.text {
-    text-align: center;
-    margin-top: 2rem;
+p {
+    margin-top: 1rem;
+    text-indent: 1rem;
+    font-size: 18px;
 }
 
 /*!            Laptop Full  Screen up to 1730px                     */
 @media only screen and (min-width: 650px) and (max-width: 1730px) {
-    /*?  (L)         Nav Bar (Top Bar)          */
+    /**  (L)         Nav Bar (Top Bar)          */
     #nav {
         /* border: 0.1rem solid blue; */
         position: fixed;
@@ -247,7 +223,7 @@ body {
         background-color: grey;
     }
 
-    /*?  (L)          Profile Bar (Left Vertical Bar)            */
+    /*!  (L)          Profile Bar (Left Vertical Bar)            */
     #profileBar {
         position: fixed;
 
@@ -268,7 +244,7 @@ body {
         height: 12rem;
     }
 
-    /*?   (L)            Links                */
+    /**   (L)            Links                */
     .iconLinksCont {
         /* border: 1px solid yellow; */
         border-radius: 0.5rem;
@@ -335,7 +311,7 @@ body {
         text-decoration: none;
     }
 
-    /*?   (L)         Home Main Content          */
+    /**   (L)         Home Main Content          */
     #mainCont {
         /* position: absolute; */
         border: 1px solid black;
@@ -363,7 +339,7 @@ body {
         margin-top: 5rem;
     }
 
-    /*? (L)     About Page Content */
+    /*! (L)     About Page Content */
     #mainContent {
         display: flex;
         flex-direction: column;
