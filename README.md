@@ -1,5 +1,1 @@
-# Project-Profile   Remake Of: myProfile-site
-
-# Notes 
-
-**1:** _remove pictures from index.html and put words_
+# Project-Profile Remake Of: myProfile-site
