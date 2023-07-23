@@ -178,12 +178,17 @@ body {
     color: red;
 }
 
-/*!  (M)               Main Content            */
-#mainCont {
-    padding: 0.5rem;
+/**  (M)         --    Main Content     --       */
+#main_Cont {
+    /* padding: 0.5rem; */
 }
 
 /** (M)    Welcome title Auto type   */
+.auto_Cont {
+    height: 200px;
+    margin-top: 5rem;
+}
+
 .titleCont {
     border: 0.4rem double rgb(255, 255, 255);
     border-top: none;
@@ -193,7 +198,7 @@ body {
     color: white;
     text-align: center;
     margin: 0 auto;
-    margin-top: 5rem;
+    margin-top: 2rem;
     font-size: 48px;
     padding: 0.5rem;
 }
@@ -205,13 +210,24 @@ body {
     cursor: pointer;
 }
 
-.welcomePageText {
-    margin-top: 4rem;
-    text-indent: 1rem;
+/**      Welcome  Intro       */
+.welcomeIntro_Cont {
+    /* border: 0.1rem solid blue; */
+    border-radius: 0.5rem;
+    width: 19rem;
+    background-color: #0005;
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.welcomeIntro_Text {
+    text-indent: 1.5rem;
     font-size: 18px;
 }
 
-.welcomePageText:first-letter {
+.welcomeIntro_Text:first-letter {
     font-size: 32px;
 }
 
@@ -221,6 +237,9 @@ p {
     font-size: 18px;
 }
 
+/*! -----------         About  Page CSS        ----------------      */
+
+/*! ---------------------------------------------------------------- */
 /*!            Laptop Full  Screen up to 1730px                     */
 @media only screen and (min-width: 650px) and (max-width: 1730px) {
     /**  (L)         Nav Bar (Top Bar)          */
@@ -259,7 +278,7 @@ p {
         background-color: grey;
     }
 
-    /*!  (L)          Profile Bar (Left Vertical Bar)            */
+    /**  (L)          Profile Bar (Left Vertical Bar)            */
     #profileBar {
         position: fixed;
 
@@ -375,7 +394,7 @@ p {
         margin-top: 5rem;
     }
 
-    /*! (L)     About Page Content */
+    /*? (L)     About Page Content */
     #mainContent {
         display: flex;
         flex-direction: column;
