@@ -215,8 +215,8 @@ body {
     /* border: 0.1rem solid blue; */
     border-radius: 0.5rem;
     width: 19rem;
-    background-color: #0005;
-    color: white;
+    background-color: white;
+    color: black;
     margin: 0 auto;
     margin-bottom: 2rem;
     padding: 1rem;
@@ -225,21 +225,24 @@ body {
 .welcomeIntro_Text {
     text-indent: 1.5rem;
     font-size: 18px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .welcomeIntro_Text:first-letter {
     font-size: 32px;
 }
 
-
 /*t                      About  Page CSS                              */
-/*      Bio  Text      */
+/*s      Bio  Text      */
 .bio_Cont {
-    border: 0.1rem solid red;
+    /* border: 0.1rem solid red; */
+    border-radius: 0.5rem;
     width: 20rem;
+    background-color: white;
+    color: black;
     margin: 0 auto;
     margin-top: 6rem;
+    margin-bottom: 1rem;
     padding: 0.5rem;
 }
 
@@ -252,12 +255,64 @@ body {
     font-size: 32px;
 }
 
-
 /*s       Text Lettering  (ALL-Pages)   */
 .text {
     margin-top: 1rem;
     text-indent: 1rem;
     font-size: 18px;
+}
+
+/*t                 Knowledge  Page CSS                              */
+/*s      Skills Container      */
+.skills_Cont {
+    /* border: 0.1rem solid red; */
+    border-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.249);
+    width: 21rem;
+    margin: 0 auto;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1px;
+}
+
+.skills_Cont h1 {
+    text-align: center;
+    font-size: 32px;
+    padding: 1rem;
+}
+
+.card_Cont {
+    border: 0.2rem inset;
+    background-color: #d0d3d4;
+    box-shadow: 1px 1px 10px 1px white;
+    border-radius: 0.2rem;
+    width: 18rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.card_Cont h4 {
+    background-color: #0005;
+    font-size: 22px;
+    height: 1.8rem;
+
+    padding: 0.2rem;
+    color: white;
+}
+
+.card_Cont li {
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.card_Cont p {
+    height: 0;
+    width: 0;
+    border-left: 60px solid #0005;
+    border-right: 30px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-top: 0.5rem solid #0005;
 }
 
 /*t            Laptop Full  Screen up to 1730px                     */
