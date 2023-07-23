@@ -1,4 +1,4 @@
-/*!   --       Nav / Profile Bar  CSS for All Pages       --     */
+/*t   --       Nav / Profile Bar  CSS for All Pages       --     */
 
 * {
     margin: 0;
@@ -9,9 +9,9 @@ body {
     background-color: #0005;
 }
 
-/*!                   Mobile Version                          */
+/*t                   Mobile Version                          */
 
-/**   (M)      Nav Bar     (All Pages)      */
+/*s   (M)      Nav Bar     (All Pages)      */
 #nav {
     /* border: 0.1rem solid white; */
     /* position: fixed; */
@@ -47,7 +47,7 @@ body {
     background-color: grey;
 }
 
-/**  (M)         Profile Bar   (All Pages)       */
+/*s  (M)         Profile Bar   (All Pages)       */
 #profileBar {
     background-color: black;
     width: 100%;
@@ -63,8 +63,8 @@ body {
     height: 8rem;
 }
 
-/*!        -----    (NO - PIC)     CSS      ------           */
-/*?       No-Pic  Nav / Profile Bar           */
+/*t        -----    (NO - PIC)     CSS      ------           */
+/*s       No-Pic  Nav / Profile Bar           */
 
 #profileBar-Spec {
     background-color: black;
@@ -73,7 +73,7 @@ body {
     /* margin-top: 1rem; */
 }
 
-/*?   (M)     No-Pic  Nav / Icon Links          */
+/*s   (M)     No-Pic  Nav / Icon Links          */
 .iconLinksCont-Spec {
     border: 0.1rem outset white;
     border-radius: 0.5rem;
@@ -97,7 +97,7 @@ body {
     border-radius: 0.5rem;
 }
 
-/**   (M)            Links          */
+/*s   (M)            Links          */
 .iconLinksCont {
     border: 0.1rem outset white;
     border-radius: 0.5rem;
@@ -148,7 +148,7 @@ body {
     padding: 0.5rem;
 }
 
-/**   Link Pages    */
+/*s   Link Pages    */
 #linkPagesCont {
     /* border: 0.1rem solid white; */
     border-radius: 0.1rem;
@@ -178,12 +178,12 @@ body {
     color: red;
 }
 
-/*  (M)         --    Main Content     --       */
+/*t  (M)         --    Main Content     --       */
 #main_Cont {
     /* padding: 0.5rem; */
 }
 
-/** (M)    Welcome title Auto type   */
+/*s (M)    Welcome title Auto type      */
 .auto_Cont {
     height: 200px;
     margin-top: 5rem;
@@ -210,7 +210,7 @@ body {
     cursor: pointer;
 }
 
-/**      Welcome  Intro       */
+/*s      Welcome  Intro       */
 .welcomeIntro_Cont {
     /* border: 0.1rem solid blue; */
     border-radius: 0.5rem;
@@ -225,26 +225,46 @@ body {
 .welcomeIntro_Text {
     text-indent: 1.5rem;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .welcomeIntro_Text:first-letter {
     font-size: 32px;
 }
 
-p {
+
+/*t                      About  Page CSS                              */
+/*      Bio  Text      */
+.bio_Cont {
+    border: 0.1rem solid red;
+    width: 20rem;
+    margin: 0 auto;
+    margin-top: 6rem;
+    padding: 0.5rem;
+}
+
+.bioText {
+    text-indent: 1.5rem;
+    font-size: 18px;
+}
+
+.bioText:first-letter {
+    font-size: 32px;
+}
+
+
+/*s       Text Lettering  (ALL-Pages)   */
+.text {
     margin-top: 1rem;
     text-indent: 1rem;
     font-size: 18px;
 }
 
-/*! -----------         About  Page CSS        ----------------      */
-
-/*! ---------------------------------------------------------------- */
-/*!            Laptop Full  Screen up to 1730px                     */
+/*t            Laptop Full  Screen up to 1730px                     */
 @media only screen and (min-width: 650px) and (max-width: 1730px) {
-    /**  (L)         Nav Bar (Top Bar)          */
+    /*s   (L)         Nav Bar (Top Bar)          */
     #nav {
-        /* border: 0.1rem solid blue; */
+        border: 0.1rem solid blue;
         position: fixed;
         background-color: black;
         width: 100%;
@@ -278,7 +298,7 @@ p {
         background-color: grey;
     }
 
-    /**  (L)          Profile Bar (Left Vertical Bar)            */
+    /*s  (L)          Profile Bar (Left Vertical Bar)            */
     #profileBar {
         position: fixed;
 
@@ -299,7 +319,7 @@ p {
         height: 12rem;
     }
 
-    /**   (L)            Links                */
+    /*s   (L)            Links                */
     .iconLinksCont {
         /* border: 1px solid yellow; */
         border-radius: 0.5rem;
@@ -366,7 +386,7 @@ p {
         text-decoration: none;
     }
 
-    /**   (L)         Home Main Content          */
+    /*s   (L)         Home Main Content          */
     #mainCont {
         /* position: absolute; */
         border: 1px solid black;
@@ -394,7 +414,7 @@ p {
         margin-top: 5rem;
     }
 
-    /*? (L)     About Page Content */
+    /*t (L)     About Page Content */
     #mainContent {
         display: flex;
         flex-direction: column;
