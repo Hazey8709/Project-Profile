@@ -1,3 +1,4 @@
+/** (M)                     About  Page                        */
 /*t                    Mobile Version                          */
 
 /**   --       Nav / Profile Bar  CSS for All Pages       --     */
@@ -178,89 +179,33 @@ body {
     color: red;
 }
 
-/**  (M)                  Main Content                */
-/* #main_Cont {
-    padding: 0.5rem;
-}
-*/
 
-/*s   Welcome title Auto type      */
-.auto_Cont {
-    height: 200px;
-    margin-top: 5rem;
-}
 
-.titleCont {
-    border: 0.4rem double rgb(255, 255, 255);
-    border-top: none;
-    border-bottom: none;
-    border-radius: 10rem;
-    background-color: black;
-    color: white;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 2rem;
-    font-size: 48px;
-    padding: 0.5rem;
-}
-
-.autoInput {
-    font-size: 38px;
-    font-family: cursive;
-    cursor: pointer;
-}
-
-/*s      Welcome  Intro       */
-.welcomeIntro_Cont {
-    /* border: 0.1rem solid blue; */
+/*s      Bio  Text      */
+.bio_Cont {
+    /* border: 0.1rem solid red; */
     border-radius: 0.5rem;
-    width: 19rem;
+    width: 20rem;
     background-color: white;
     color: black;
     margin: 0 auto;
-    margin-bottom: 2rem;
-    padding: 1rem;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
 }
 
-.welcomeIntro_Text {
+.bioText {
     text-indent: 1.5rem;
     font-size: 18px;
-    /* font-weight: bold; */
 }
 
-.welcomeIntro_Text:first-letter {
+.bioText:first-letter {
     font-size: 32px;
 }
 
-/*t            Tablet  Screen (Min-550px / Max-649px)          */
-
-@media only screen and (min-width: 550px) and (max-width: 649px) {
-    /*s    Auto type Title       */
-    .autoInput {
-        font-size: 48px;
-        /* font-family: cursive; */
-        font-weight: bold;
-    }
-
-    /*s      Welcome  Intro       */
-    .welcomeIntro_Cont {
-        width: 25rem;
-    }
-
-    .welcomeIntro_Text {
-        text-indent: 3rem;
-        font-size: 20px;
-        /* font-weight: bold; */
-    }
-
-    .welcomeIntro_Text:first-letter {
-        font-size: 38px;
-    }
-}
-
-/*t            Laptop Full  Screen (Min-650px / Max-1730px)          */
-
-@media only screen and (min-width: 650px) and (max-width: 1730px) {
-
-
+/*s       Text Lettering  (ALL-Pages)   */
+.text {
+    margin-top: 1rem;
+    text-indent: 1rem;
+    font-size: 18px;
 }
