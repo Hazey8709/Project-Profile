@@ -208,7 +208,7 @@ body {
     font-size: 18px;
 }
 
-/*t            Tablet  Screen (Min-550px / Max-749px)          */
+/*t            Tablet  Screen (Min-550px / Max-899px)          */
 
 @media only screen and (min-width: 550px) and (max-width: 899px) {
     /*s (T)   Nav   */

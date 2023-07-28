@@ -11,7 +11,7 @@ body {
     background-color: #0005;
 }
 
-/*s   (M)      Nav Bar     (All Pages)      */
+/**   (M)      Nav Bar     (All Pages)      */
 #nav {
     /* border: 0.1rem solid white; */
     /* position: fixed; */
@@ -47,7 +47,7 @@ body {
     background-color: grey;
 }
 
-/*s  (M)         Profile Bar   (All Pages)       */
+/**  (M)         Profile Bar   (All Pages)       */
 #profileBar {
     background-color: black;
     width: 100%;
@@ -63,8 +63,8 @@ body {
     height: 8rem;
 }
 
-/** (M)       -----    (NO - PIC)     CSS      ------           */
-/*s       No-Pic  Nav / Profile Bar           */
+/*! (M)       -----    (NO - PIC)     CSS      ------           */
+/** (M)      No-Pic  Nav / Profile Bar           */
 
 #profileBar-Spec {
     background-color: black;
@@ -73,7 +73,7 @@ body {
     /* margin-top: 1rem; */
 }
 
-/*s   (M)     No-Pic  Nav / Icon Links          */
+/**   (M)     No-Pic  Nav / Icon Links          */
 .iconLinksCont-Spec {
     border: 0.1rem outset white;
     border-radius: 0.5rem;
@@ -97,7 +97,7 @@ body {
     border-radius: 0.5rem;
 }
 
-/*s   (M)            Links          */
+/**   (M)            Links          */
 .iconLinksCont {
     border: 0.1rem outset white;
     border-radius: 0.5rem;
@@ -148,7 +148,7 @@ body {
     padding: 0.5rem;
 }
 
-/*s   Link Pages    */
+/** (M)  Link Pages    */
 #linkPagesCont {
     /* border: 0.1rem solid white; */
     border-radius: 0.1rem;
@@ -178,8 +178,7 @@ body {
     color: red;
 }
 
-
-/*s      Skills Container      */
+/** (M)     Skills Container      */
 .skills_Cont {
     /* border: 0.1rem solid red; */
     border-radius: 0.5rem;
@@ -229,4 +228,143 @@ body {
     border-right: 30px solid transparent;
     border-bottom: 0px solid transparent;
     border-top: 0.5rem solid #0005;
+}
+
+/*s (M)    Description of Cards (Display None) */
+.title-L_Cont,
+.title-R_Cont {
+    display: none;
+}
+
+/*t            Tablet  Screen (Min-550px / Max-899px)          */
+
+@media only screen and (min-width: 550px) and (max-width: 899px) {
+    /*s (T)   Nav   */
+    /* .ulCont {
+        border: 0.1rem solid blue;
+    } */
+
+    .liCont {
+        /* border: 0.1rem solid blue; */
+
+        margin: 1rem;
+    }
+
+    .skills_Cont {
+        border: 0.1rem solid green;
+        border-radius: 0.5rem;
+        background-color: rgba(0, 0, 0, 0.249);
+        width: 28rem;
+        margin: 0 auto;
+        margin-top: 6rem;
+        margin-bottom: 1rem;
+        padding-bottom: 1px;
+    }
+}
+
+/** --------------------------------------------- */
+/*t            Laptop Full  Screen (Min-900px / )          */
+@media only screen and (min-width: 900px) {
+    /*s  (L)         Nav Bar (Top Bar)          */
+    /* #nav {
+        border: 0.1rem solid blue;
+    } */
+
+    /* .ulCont {
+        border: 0.1rem solid blue;
+    } */
+
+    .liCont {
+        /* border: 0.1rem solid blue; */
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
+
+    /*s(L)     No-Pic  Nav / Icon Links          */
+    .iconLinksCont-Spec {
+        /* border: 0.1rem outset red; */
+
+        width: 30rem;
+        height: 3rem;
+    }
+
+    .iconLinksCont-Spec a {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    /*s (L)     Link Pages      */
+
+    .linkSection1 {
+        display: inline-block;
+        /* border: 0.1rem solid yellow; */
+
+        margin-top: 0.8rem;
+        margin-right: 5rem;
+    }
+
+    .linkSection2 {
+        display: inline-block;
+        /* border: 0.1rem solid orange; */
+        margin-top: 0.8rem;
+        margin-left: 5rem;
+    }
+
+    .linkPage {
+        color: white;
+        padding: 1.5rem;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    /*s (L)      CARDS        */
+    .skills_Cont {
+        border: 0.1rem solid red;
+        width: 90%;
+    }
+
+    .sect_Cont {
+        border: 0.1rem solid yellow;
+        height: 300px;
+
+        margin: 1rem;
+        padding: 0.2rem;
+    }
+
+    .card_Cont {
+        display: block;
+        width: 200px;
+        height: 200px;
+        margin: 0;
+    }
+
+    .card_Cont h4,
+    .card_Cont p {
+        display: none;
+    }
+
+    .title-L_Cont,
+    .title-R_Cont {
+        display: block;
+    }
+
+    .title-L_Cont,
+    .card-L_Cont {
+        /* display: inline-block; */
+        border: 0.1rem solid green;
+        width: 49%;
+        /* width: 200px; */
+        height: 298px;
+        float: left;
+    }
+
+    .title-R_Cont,
+    .card-R_Cont {
+        /* display: block; */
+        border: 0.1rem solid green;
+
+        width: 49%;
+        height: 298px;
+        float: right;
+    }
 }

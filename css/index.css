@@ -200,6 +200,7 @@ body {
     margin: 0 auto;
     margin-bottom: 3rem;
     padding: 1rem;
+    box-shadow: 1px 1px 5px 1px black;
 }
 
 .welcomeIntro_Text {
@@ -368,7 +369,7 @@ body {
 
     /**     -      Main       -          */
     #main_Cont {
-        /* display: flex; */
+        /* display: block; */
         height: 100%;
         /* width: 100%; */
         margin-left: 16rem;
@@ -405,7 +406,7 @@ body {
     .title_Cont {
         /* display: flex; */
         /* position: absolute; */
-        /* border: 0.1rem solid red; */
+        border: 0.1rem solid red;
         margin-top: 10rem;
         margin-left: 2rem;
         float: left;
@@ -413,7 +414,7 @@ body {
     }
 
     .title_Cont p {
-        /* border: 0.1rem solid blue; */
+        border: 0.1rem solid blue;
         border-radius: 0.2rem;
         font-size: 48px;
         padding: 0.5rem;
@@ -429,7 +430,7 @@ body {
         margin-right: 0.5rem;
         float: right;
         width: 30rem;
-        box-shadow: 1px 1px 5px 1px black;
+        /* box-shadow: 1px 1px 5px 1px black; */
     }
 
     .welcomeIntro_Text {
