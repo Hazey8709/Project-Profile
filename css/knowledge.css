@@ -280,7 +280,7 @@ body {
         margin-left: 3rem;
     }
 
-    /*s(L)     No-Pic  Nav / Icon Links          */
+    /**(L)     No-Pic  Nav / Icon Links          */
     .iconLinksCont-Spec {
         /* border: 0.1rem outset red; */
 
@@ -293,7 +293,7 @@ body {
         margin-left: 1rem;
     }
 
-    /*s (L)     Link Pages      */
+    /**(L)     Link Pages      */
 
     .linkSection1 {
         display: inline-block;
@@ -317,7 +317,7 @@ body {
         font-weight: bold;
     }
 
-    /*s (L)      CARDS        */
+    /** (L)       Skill    -    CARDS        */
     .skills_Cont {
         border: 0.1rem solid red;
         width: 90%;
@@ -338,6 +338,7 @@ body {
         margin: 0;
     }
 
+    /** (L)    Not Shown On Laptop screens */
     .card_Cont h4,
     .card_Cont p {
         display: none;
@@ -346,25 +347,180 @@ body {
     .title-L_Cont,
     .title-R_Cont {
         display: block;
+        /* border: 0.1rem solid purple; */
+        border-radius: 0.1rem;
     }
 
+    /*s (L)  Card/Title  Left Cont  */
     .title-L_Cont,
     .card-L_Cont {
         /* display: inline-block; */
         border: 0.1rem solid green;
+        border-radius: 0.1rem;
         width: 49%;
         /* width: 200px; */
         height: 298px;
         float: left;
     }
 
+    /*s (L)   Card/Title  Right Cont  */
     .title-R_Cont,
     .card-R_Cont {
         /* display: block; */
-        border: 0.1rem solid green;
+        border: 0.1rem solid orange;
+        border-radius: 0.1rem;
 
         width: 49%;
         height: 298px;
         float: right;
+    }
+
+    /*s (L)  Title L / R  Cont  */
+    .title-L_Cont h3,
+    .title-R_Cont h3 {
+        /* display: block; */
+        border: 0.1rem solid blue;
+        /* border-radius: 10rem; */
+        background-color: black;
+        color: white;
+        /* height: 4rem; */
+        text-align: center;
+        font-size: 48px;
+        cursor: pointer;
+    }
+
+    /*s (L)  Title L / R  Cont  A    */
+    .title-L_Cont a,
+    .title-R_Cont a {
+        display: inline-block;
+        /* border: 0.1rem solid blue; */
+
+        margin-left: 1rem;
+        animation: spinIcon 10s infinite;
+        animation-delay: 500ms;
+    }
+
+    /*s (L)   Icons  Only    */
+    .fa-html5 {
+        color: #fb6325;
+        margin-top: 0.5rem;
+        font-size: 80px;
+    }
+
+    .fa-css3 {
+        color: blue;
+        margin-top: 0.5rem;
+        font-size: 80px;
+    }
+
+    .imgIcon-JS {
+        color: yellow;
+        height: 96px;
+        width: 96px;
+
+        margin-top: 0.7rem;
+        /* background-color: white; */
+    }
+
+    .imgIcon-PM {
+        height: 96px;
+        width: 96px;
+
+        margin-top: 0.7rem;
+    }
+
+    .imgIcon-FW {
+        border-radius: 0.3rem;
+        height: 64px;
+        width: 64px;
+        /* color: white; */
+        margin-top: 0.7rem;
+        background-color: white;
+    }
+
+    .imgIcon-CSSFW {
+        border-radius: 0.3rem;
+        height: 64px;
+        width: 64px;
+
+        margin-top: 0.7rem;
+        background-color: white;
+    }
+
+    .imgIcon-MB {
+        border-radius: 0.3rem;
+        height: 64px;
+        width: 64px;
+
+        margin-top: 0.7rem;
+        background-color: white;
+    }
+
+    .imgIcon-C {
+        border-radius: 0.3rem;
+        height: 82px;
+        width: 82px;
+
+        margin-top: 0.7rem;
+        /* background-color: white; */
+    }
+
+    .fa-database {
+        color: gray;
+        margin-top: 0.5rem;
+        /* font-size: 80px; */
+    }
+
+    .imgIcon-MySQL {
+        border-radius: 0.3rem;
+        height: 82px;
+        width: 82px;
+
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    .imgIcon-API {
+        border-radius: 0.3rem;
+        height: 72px;
+        width: 72px;
+
+        background-color: white;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    .imgIcon-VC {
+        border-radius: 0.3rem;
+        height: 72px;
+        width: 72px;
+
+        background-color: white;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    .imgIcon-Test {
+        border-radius: 0.3rem;
+        height: 72px;
+        width: 72px;
+
+        background-color: white;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    @keyframes spinIcon {
+        0% {
+            rotate: 0deg;
+        }
+
+        50% {
+            rotate: -12deg;
+        }
+
+        100% {
+            rotate: 360deg;
+        }
     }
 }
