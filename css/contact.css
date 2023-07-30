@@ -1,0 +1,485 @@
+/*t                    Mobile Version                          */
+
+/**   --       Nav / Profile Bar  CSS for All Pages       --     */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0005;
+}
+
+/** (M)      Nav Bar     (All Pages)      */
+#nav {
+    /* border: 0.1rem solid white; */
+    /* position: fixed; */
+    background-color: black;
+    width: 100%;
+    height: 4rem;
+}
+
+.ulCont {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+}
+
+.liCont {
+    margin-top: 1.5rem;
+}
+
+.navBtns {
+    border: 0.1rem outset white;
+    border-radius: 0.4rem;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+.navBtns:hover {
+    color: white;
+    background-color: grey;
+}
+
+/** (M)         Profile Bar   (All Pages)       */
+#profileBar {
+    background-color: black;
+    width: 100%;
+    height: 15rem;
+}
+
+.profilePicCont {
+    border: 1px solid green;
+    border-radius: 10rem;
+    background-color: lightblue;
+    margin: 0 auto;
+    width: 8rem;
+    height: 8rem;
+}
+
+/*s   (M)            Links          */
+.iconLinksCont {
+    border: 0.1rem outset white;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: center;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    width: 15rem;
+    height: 3rem;
+}
+
+.iconLinksCont a:hover {
+    /* border: 0.1rem outset black; */
+    background-color: rgb(169, 168, 168);
+    border-radius: 0.5rem;
+}
+
+.fa-facebook {
+    color: blue;
+    font-size: 32px;
+    padding: 0.5rem;
+}
+
+.fa-github {
+    color: black;
+    font-size: 32px;
+    padding: 0.5rem;
+}
+
+.fa-twitter {
+    color: lightblue;
+    font-size: 32px;
+    padding: 0.5rem;
+}
+
+.fa-linkedin {
+    color: darkblue;
+    font-size: 32px;
+    padding: 0.5rem;
+}
+
+.fa-youtube {
+    color: red;
+    font-size: 32px;
+    padding: 0.5rem;
+}
+
+/** (M)    Link Pages    */
+#linkPagesCont {
+    /* border: 0.1rem solid white; */
+    border-radius: 0.1rem;
+    background-color: black;
+    height: 5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.linkSection1 {
+    margin-top: 0.8rem;
+}
+
+.linkSection2 {
+    margin-top: 1rem;
+    padding: 0.1rem;
+}
+
+.linkPage {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.linkPage:hover {
+    color: red;
+}
+
+/*!  (M)                  Main Content                */
+
+.main_Cont {
+    border: 0.1rem solid red;
+    margin-top: 3.8rem;
+}
+
+/** (M)      Form     */
+#form_Cont {
+    margin-top: 5rem;
+}
+
+/** (M)      Page Title  */
+.pageTitle_Cont {
+    /* border: 0.1rem solid green; */
+    margin-top: 2rem;
+}
+
+.pageTitle_Cont h3 {
+    /* border: 0.1rem solid yellow; */
+    width: 90%;
+    height: 5rem;
+    margin: 0 auto;
+    /* margin-top: 1rem; */
+    text-align: center;
+    font-size: 20px;
+    padding: 0.2rem;
+    padding-top: 1rem;
+}
+
+.pageTitle_Cont a {
+    border: 0.1rem solid white;
+    border-radius: 0.2rem;
+    background-color: black;
+    color: white;
+    margin-left: 2rem;
+    text-decoration: none;
+    padding: 0.2rem;
+}
+
+.pageTitle_Cont a:hover {
+    border: 0.1rem solid black;
+    background-color: white;
+    color: black;
+}
+
+/** (M)      Contact  Form          */
+#form_Cont {
+    border: 0.2rem outset white;
+    border-radius: 0.3rem;
+    background-color: #0005;
+    box-shadow: 5px 0px 20px 3px white;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    height: 23rem;
+    width: 15rem;
+}
+
+#form_Cont h3 {
+    color: white;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+/*!         switch to correctly labeled elements */
+#form_Cont input {
+    border: 0.1rem inset black;
+    border-radius: 0.3rem;
+    height: 1.2rem;
+    width: 14.5rem;
+    padding: 0.1rem;
+    margin: 0.1rem;
+}
+
+#form_Cont input:hover {
+    border: 0.1rem outset black;
+}
+
+.stateSel {
+    border: 0.1rem inset black;
+    margin-top: 0.1rem;
+    margin-left: 3rem;
+}
+
+.stateSel:hover {
+    border: 0.1rem outset black;
+}
+
+#detailsInput {
+    border: 0.1rem inset black;
+    font-size: 8px;
+    width: 14.8rem;
+    height: 5rem;
+    margin-top: 0.1rem;
+}
+
+#detailsInput:hover {
+    border: 0.1rem outset black;
+}
+
+#submitBtn {
+    border: 0.1rem outset black;
+    border-radius: 0.2rem;
+    color: darkgreen;
+    font-weight: bold;
+    width: 15rem;
+    margin-top: 1.5rem;
+    margin-left: 0.1rem;
+}
+
+#submitBtn:hover {
+    border: 0.1rem outset green;
+}
+
+#submitBtn:active {
+    color: red;
+}
+
+/*t            Tablet  Screen (Min-550px / Max-899px)          */
+
+@media only screen and (min-width: 550px) and (max-width: 899px) {
+    /** (T)   Nav   */
+    .liCont {
+        /* border: 0.1rem solid blue; */
+
+        margin: 1rem;
+    }
+}
+
+/** --------------------------------------------- */
+/*t            Laptop Full  Screen (Min-650px / )          */
+
+@media only screen and (min-width: 900px) {
+    /*?  (L)         Nav Bar (Top Bar)          */
+    #nav {
+        /* border: 0.1rem solid blue; */
+        position: fixed;
+        /* background-color: black; */
+        /* width: 100%; */
+        /* height: 4rem; */
+    }
+
+    .ulCont {
+        /* border: 0.1rem outset purple; */
+        /* display: flex; */
+        /* flex-direction: row; */
+        /* list-style: none; */
+        /* justify-content: center; */
+    }
+
+    .liCont {
+        /* border: 0.1rem outset red; */
+        /* width: 4rem; */
+        padding: 0.3rem;
+        margin-right: 4rem;
+    }
+
+    .navBtns {
+        border: 0.1rem outset white;
+        border-radius: 0.4rem;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        margin: 0.5rem;
+        padding: 0.5rem;
+        text-decoration: none;
+    }
+
+    .navBtns:hover {
+        color: white;
+        background-color: grey;
+    }
+
+    /*s  (L)          Profile Bar (Left Vertical Bar)            */
+    #profileBar {
+        position: fixed;
+        /* border: 0.1rem solid red; */
+        background-color: rgb(49, 49, 49); /*!  change back to black after  */
+        margin-top: 4rem;
+        width: 16rem;
+        height: 100%;
+    }
+
+    .profilePicCont {
+        border: 1px solid green;
+        border-radius: 10rem;
+        background-color: lightblue;
+        margin: 0 auto;
+        margin-top: 6rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    /*s   (L)            Links                */
+    .iconLinksCont {
+        border: 0.1rem solid yellow;
+        /* border-radius: 0.5rem; */
+        /* display: flex; */
+        /* flex-direction: row; */
+        /* flex-wrap: no-wrap; */
+        /* justify-content: center; */
+        /* background-color: white; */
+        /* margin: 0 auto; */
+        margin-top: 8rem;
+        /* width: 14rem; */
+        /* height: 4rem; */
+    }
+
+    #linkPagesCont {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        border: 0.1rem solid yellow;
+        border-radius: 0.5rem;
+        background-color: white;
+        margin: 0 auto;
+        margin-top: 5rem;
+        text-align: center;
+        width: 14rem;
+        height: 10rem;
+    }
+
+    .linkPage {
+        display: block;
+        /* border: 0.1rem solid black; */
+        border-radius: 0.2rem;
+        background-color: white;
+        color: black;
+        margin: 0.3rem;
+        margin-top: 0.8rem;
+        /* padding: 0.2rem; */
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    .linkPage:hover {
+        background-color: grey;
+        color: white;
+    }
+
+    .linkSection1 {
+        display: block;
+        /* border: 0.1rem solid blue; */
+
+        width: 6rem;
+        height: 9.5rem;
+        margin-top: 0.2rem;
+    }
+
+    .linkSection2 {
+        display: inline-block;
+        /* border: 0.1rem solid blue; */
+
+        width: 6rem;
+        height: 9.3rem;
+        margin-top: 0.2rem;
+    }
+
+    /**     -      Main       -          */
+    #main_Cont {
+        /* display: block; */
+        height: 100%;
+        /* width: 100%; */
+        margin-left: 16rem;
+    }
+
+    .auto_Cont {
+        /* border: 0.1rem solid blue; */
+        height: 100%;
+        margin-top: 6rem;
+    }
+
+    .autoInput {
+        font-size: 56px;
+        font-family: cursive;
+        cursor: pointer;
+    }
+
+    /*??      ????????????//            */
+    /* .autoTitle_Cont {
+        border: 0.5rem double rgb(255, 255, 255);
+        border-top: none;
+        border-bottom: none;
+        border-radius: 10rem;
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 2rem;
+        font-size: 48px;
+        padding: 0.5rem;
+    } */
+
+    /*s          Title Saying      */
+    .title_Cont {
+        /* display: flex; */
+        /* position: absolute; */
+        border: 0.1rem solid red;
+        margin-top: 10rem;
+        margin-left: 2rem;
+        float: left;
+        box-shadow: 1px 1px 5px 1px black;
+    }
+
+    .title_Cont p {
+        border: 0.1rem solid blue;
+        border-radius: 0.2rem;
+        font-size: 48px;
+        padding: 0.5rem;
+        background-color: white;
+    }
+
+    /*s      Welcome  Intro       */
+    .welcomeIntro_Cont {
+        /* display: flex; */
+        /* position: absolute; */
+        border: 0.1rem solid black;
+        margin-top: 1.5rem;
+        margin-right: 0.5rem;
+        float: right;
+        width: 30rem;
+        /* box-shadow: 1px 1px 5px 1px black; */
+    }
+
+    .welcomeIntro_Text {
+        text-indent: 3rem;
+        font-size: 20px;
+        /* font-weight: bold; */
+    }
+
+    .welcomeIntro_Text:first-letter {
+        font-size: 38px;
+    }
+
+    .p {
+        margin-top: 30rem;
+    }
+}
