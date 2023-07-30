@@ -147,7 +147,7 @@ body {
 /**  (M)                  Main Content                */
 
 #main_Cont {
-    border: 0.1rem solid black;
+    /* border: 0.1rem solid yellow; */
 }
 
 /*s   Welcome title Auto type      */
@@ -239,7 +239,7 @@ body {
 }
 
 /** --------------------------------------------- */
-/*t            Laptop Full  Screen (Min-650px / )          */
+/*t  (L)        Laptop Full  Screen (Min-650px / )          */
 
 @media only screen and (min-width: 900px) {
     /*?  (L)         Nav Bar (Top Bar)          */
@@ -367,7 +367,7 @@ body {
         margin-top: 0.2rem;
     }
 
-    /**     -      Main       -          */
+    /** (L)    -      Main       -          */
     #main_Cont {
         /* display: block; */
         height: 100%;
@@ -387,22 +387,7 @@ body {
         cursor: pointer;
     }
 
-    /*??      ????????????//            */
-    /* .autoTitle_Cont {
-        border: 0.5rem double rgb(255, 255, 255);
-        border-top: none;
-        border-bottom: none;
-        border-radius: 10rem;
-        background-color: black;
-        color: white;
-        text-align: center;
-        margin: 0 auto;
-        margin-top: 2rem;
-        font-size: 48px;
-        padding: 0.5rem;
-    } */
-
-    /*s          Title Saying      */
+    /** (L)         Title Saying      */
     .title_Cont {
         /* display: flex; */
         /* position: absolute; */
@@ -421,7 +406,7 @@ body {
         background-color: white;
     }
 
-    /*s      Welcome  Intro       */
+    /**      Welcome  Intro       */
     .welcomeIntro_Cont {
         /* display: flex; */
         /* position: absolute; */

@@ -144,16 +144,12 @@ body {
     color: red;
 }
 
-/*!  (M)                  Main Content                */
+/**  (M)                  Main Content                */
 
-.main_Cont {
-    border: 0.1rem solid red;
-    margin-top: 3.8rem;
-}
-
-/** (M)      Form     */
-#form_Cont {
-    margin-top: 5rem;
+#main_Cont {
+    /* border: 0.1rem solid red; */
+    padding-top: 3rem;
+    /* margin-top: 3.8rem; */
 }
 
 /** (M)      Page Title  */
@@ -200,23 +196,25 @@ body {
     margin-top: 2rem;
     padding: 0.5rem;
     height: 23rem;
-    width: 15rem;
+    width: 20rem;
 }
 
 #form_Cont h3 {
     color: white;
     text-align: center;
     margin-bottom: 0.5rem;
+    font-size: 22px;
 }
 
-/*!         switch to correctly labeled elements */
 #form_Cont input {
+    display: block;
     border: 0.1rem inset black;
     border-radius: 0.3rem;
     height: 1.2rem;
-    width: 14.5rem;
+    width: 19.5rem;
     padding: 0.1rem;
-    margin: 0.1rem;
+    margin: 0 auto;
+    margin-bottom: 0.1rem;
 }
 
 #form_Cont input:hover {
@@ -225,8 +223,10 @@ body {
 
 .stateSel {
     border: 0.1rem inset black;
-    margin-top: 0.1rem;
-    margin-left: 3rem;
+    width: 19rem;
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
 }
 
 .stateSel:hover {
@@ -236,8 +236,9 @@ body {
 #detailsInput {
     border: 0.1rem inset black;
     font-size: 8px;
-    width: 14.8rem;
-    height: 5rem;
+    width: 19.5rem;
+    height: 8rem;
+    margin-left: 0.1rem;
     margin-top: 0.1rem;
 }
 
@@ -248,15 +249,19 @@ body {
 #submitBtn {
     border: 0.1rem outset black;
     border-radius: 0.2rem;
-    color: darkgreen;
+    background-color: black;
+    color: white;
     font-weight: bold;
-    width: 15rem;
-    margin-top: 1.5rem;
+    width: 19.7rem;
+    height: 1.5rem;
+    margin-top: 1rem;
     margin-left: 0.1rem;
 }
 
 #submitBtn:hover {
-    border: 0.1rem outset green;
+    border: 0.1rem outset black;
+    background-color: white;
+    color: green;
 }
 
 #submitBtn:active {
@@ -280,7 +285,7 @@ body {
 @media only screen and (min-width: 900px) {
     /*?  (L)         Nav Bar (Top Bar)          */
     #nav {
-        /* border: 0.1rem solid blue; */
+        border: 0.1rem solid blue;
         position: fixed;
         /* background-color: black; */
         /* width: 100%; */
@@ -321,7 +326,7 @@ body {
     /*s  (L)          Profile Bar (Left Vertical Bar)            */
     #profileBar {
         position: fixed;
-        /* border: 0.1rem solid red; */
+        border: 0.1rem solid red;
         background-color: rgb(49, 49, 49); /*!  change back to black after  */
         margin-top: 4rem;
         width: 16rem;
@@ -406,80 +411,10 @@ body {
     /**     -      Main       -          */
     #main_Cont {
         /* display: block; */
+        border: 0.1rem solid purple;
+
         height: 100%;
         /* width: 100%; */
         margin-left: 16rem;
-    }
-
-    .auto_Cont {
-        /* border: 0.1rem solid blue; */
-        height: 100%;
-        margin-top: 6rem;
-    }
-
-    .autoInput {
-        font-size: 56px;
-        font-family: cursive;
-        cursor: pointer;
-    }
-
-    /*??      ????????????//            */
-    /* .autoTitle_Cont {
-        border: 0.5rem double rgb(255, 255, 255);
-        border-top: none;
-        border-bottom: none;
-        border-radius: 10rem;
-        background-color: black;
-        color: white;
-        text-align: center;
-        margin: 0 auto;
-        margin-top: 2rem;
-        font-size: 48px;
-        padding: 0.5rem;
-    } */
-
-    /*s          Title Saying      */
-    .title_Cont {
-        /* display: flex; */
-        /* position: absolute; */
-        border: 0.1rem solid red;
-        margin-top: 10rem;
-        margin-left: 2rem;
-        float: left;
-        box-shadow: 1px 1px 5px 1px black;
-    }
-
-    .title_Cont p {
-        border: 0.1rem solid blue;
-        border-radius: 0.2rem;
-        font-size: 48px;
-        padding: 0.5rem;
-        background-color: white;
-    }
-
-    /*s      Welcome  Intro       */
-    .welcomeIntro_Cont {
-        /* display: flex; */
-        /* position: absolute; */
-        border: 0.1rem solid black;
-        margin-top: 1.5rem;
-        margin-right: 0.5rem;
-        float: right;
-        width: 30rem;
-        /* box-shadow: 1px 1px 5px 1px black; */
-    }
-
-    .welcomeIntro_Text {
-        text-indent: 3rem;
-        font-size: 20px;
-        /* font-weight: bold; */
-    }
-
-    .welcomeIntro_Text:first-letter {
-        font-size: 38px;
-    }
-
-    .p {
-        margin-top: 30rem;
     }
 }
