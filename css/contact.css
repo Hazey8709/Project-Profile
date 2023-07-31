@@ -268,6 +268,38 @@ body {
     color: red;
 }
 
+/** (M)    Contacts Paragraph  */
+
+.contacts_Cont {
+    /* border: 0.1rem solid blue; */
+    padding: 0.3rem;
+}
+
+.contacts_Cont p:first-of-type {
+    /* border: 0.1rem solid pink; */
+    text-indent: 1.5rem;
+    font-size: 17px;
+}
+
+.contacts_Cont p:last-of-type {
+    /* border: 0.1rem solid pink; */
+    text-indent: 1.5rem;
+    font-size: 17px;
+}
+
+.list_Cont {
+    /* border: 0.1rem solid green; */
+    margin: 0.5rem 0 0.5rem 1.5rem;
+    /* margin-left: 1rem; */
+}
+
+.list_Cont li {
+    /* border: 0.1rem solid yellow; */
+}
+
+.list_Cont li a {
+}
+
 /*t            Tablet  Screen (Min-550px / Max-899px)          */
 
 @media only screen and (min-width: 550px) and (max-width: 899px) {
@@ -323,7 +355,7 @@ body {
         background-color: grey;
     }
 
-    /*s  (L)          Profile Bar (Left Vertical Bar)            */
+    /**  (L)          Profile Bar (Left Vertical Bar)            */
     #profileBar {
         position: fixed;
         border: 0.1rem solid red;
@@ -343,7 +375,7 @@ body {
         height: 12rem;
     }
 
-    /*s   (L)            Links                */
+    /**   (L)            Links                */
     .iconLinksCont {
         border: 0.1rem solid yellow;
         /* border-radius: 0.5rem; */
@@ -417,4 +449,89 @@ body {
         /* width: 100%; */
         margin-left: 16rem;
     }
+
+    /** (M)      Contact  Form          */
+    #form_Cont {
+        border: 0.2rem outset yellow;
+
+        float: right;
+        margin-right: 1rem;
+        /* border-radius: 0.3rem; */
+        /* background-color: #0005; */
+        /* box-shadow: 5px 0px 20px 3px white; */
+        /* margin: 0 auto; */
+        /* margin-top: 2rem; */
+        /* padding: 0.5rem; */
+        /* height: 23rem; */
+        /* width: 20rem; */
+    }
+
+    /* #form_Cont h3 {
+        color: white;
+        text-align: center;
+        margin-bottom: 0.5rem;
+        font-size: 22px;
+    } */
+
+    /* #form_Cont input {
+        display: block;
+        border: 0.1rem inset black;
+        border-radius: 0.3rem;
+        height: 1.2rem;
+        width: 19.5rem;
+        padding: 0.1rem;
+        margin: 0 auto;
+        margin-bottom: 0.1rem;
+    } */
+
+    /* #form_Cont input:hover {
+        border: 0.1rem outset black;
+    } */
+
+    /* .stateSel {
+        border: 0.1rem inset black;
+        width: 19rem;
+        margin-left: 0.5rem;
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
+    } */
+
+    /* .stateSel:hover {
+        border: 0.1rem outset black;
+    } */
+
+    /* #detailsInput {
+        border: 0.1rem inset black;
+        font-size: 8px;
+        width: 19.5rem;
+        height: 8rem;
+        margin-left: 0.1rem;
+        margin-top: 0.1rem;
+    } */
+
+    /* #detailsInput:hover {
+        border: 0.1rem outset black;
+    } */
+
+    /* #submitBtn {
+        border: 0.1rem outset black;
+        border-radius: 0.2rem;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        width: 19.7rem;
+        height: 1.5rem;
+        margin-top: 1rem;
+        margin-left: 0.1rem;
+    } */
+
+    /* #submitBtn:hover {
+        border: 0.1rem outset black;
+        background-color: white;
+        color: green;
+    } */
+
+    /* #submitBtn:active {
+        color: red;
+    } */
 }
