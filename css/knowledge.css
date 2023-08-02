@@ -47,22 +47,6 @@ body {
     background-color: grey;
 }
 
-/**  (M)         Profile Bar   (All Pages)       */
-#profileBar {
-    background-color: black;
-    width: 100%;
-    height: 15rem;
-}
-
-.profilePicCont {
-    border: 1px solid green;
-    border-radius: 10rem;
-    background-color: lightblue;
-    margin: 0 auto;
-    width: 8rem;
-    height: 8rem;
-}
-
 /*! (M)       -----    (NO - PIC)     CSS      ------           */
 /** (M)      No-Pic  Nav / Profile Bar           */
 
@@ -93,27 +77,6 @@ body {
 
 .iconLinksCont-Spec a:hover {
     border: 0.1rem outset black;
-    background-color: rgb(169, 168, 168);
-    border-radius: 0.5rem;
-}
-
-/**   (M)            Links          */
-.iconLinksCont {
-    border: 0.1rem outset white;
-    border-radius: 0.5rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: no-wrap;
-    justify-content: center;
-    background-color: white;
-    margin: 0 auto;
-    margin-top: 0.5rem;
-    width: 15rem;
-    height: 3rem;
-}
-
-.iconLinksCont a:hover {
-    /* border: 0.1rem outset black; */
     background-color: rgb(169, 168, 168);
     border-radius: 0.5rem;
 }
@@ -183,6 +146,7 @@ body {
     /* border: 0.1rem solid red; */
     border-radius: 0.5rem;
     background-color: rgba(0, 0, 0, 0.249);
+    box-shadow: 1px 1px 10px 1px white;
     width: 21rem;
     margin: 0 auto;
     margin-top: 6rem;
@@ -239,19 +203,16 @@ body {
 /*t            Tablet  Screen (Min-550px / Max-899px)          */
 
 @media only screen and (min-width: 550px) and (max-width: 899px) {
-    /*s (T)   Nav   */
-    /* .ulCont {
-        border: 0.1rem solid blue;
-    } */
-
+    /** (T)     Nav    */
     .liCont {
         /* border: 0.1rem solid blue; */
 
         margin: 1rem;
     }
 
+    /** (T)    Skill Cards   */
     .skills_Cont {
-        border: 0.1rem solid green;
+        /* border: 0.1rem solid green; */
         border-radius: 0.5rem;
         background-color: rgba(0, 0, 0, 0.249);
         width: 30rem;
@@ -264,7 +225,7 @@ body {
 
 /*t            Laptop Full  Screen (Min-900px / )          */
 @media only screen and (min-width: 900px) {
-    /*s  (L)         Nav Bar (Top Bar)          */
+    /**  (L)         Nav Bar (Top Bar)          */
     /* #nav {
         border: 0.1rem solid blue;
     } */
