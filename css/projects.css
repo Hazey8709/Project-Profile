@@ -44,7 +44,7 @@ body {
     background-color: grey;
 }
 
-/*! (M)       -----    (NO - PIC)     CSS      ------           */
+/*st (M)       -----    (NO - PIC)     CSS      ------           */
 /** (M)      (No-Pic)  Nav / Profile Bar           */
 
 #profileBar-Spec {
@@ -138,13 +138,15 @@ body {
     color: red;
 }
 
+/*st (M)            Main Content         */
 #main_Cont {
     border: 0.1rem solid red;
     margin-top: 4.6rem;
     padding: 0.5rem;
 }
-/**  (M)           Groups                  */
-/*s (M)     Group-1 Container    */
+
+/*st (M)           Groups                  */
+/** (M)     Group-1 Container    */
 .group1_Cont {
     border: 0.1rem solid yellow;
     border-radius: 0.5rem;
@@ -268,7 +270,7 @@ body {
         margin-left: 3rem;
     }
 
-    /**(L)     No-Pic  Nav / Icon Links          */
+    /** (L)     No-Pic  Nav / Icon Links          */
     .iconLinksCont-Spec {
         /* border: 0.1rem outset red; */
 
@@ -281,7 +283,7 @@ body {
         margin-left: 1rem;
     }
 
-    /**(L)     Link Pages      */
+    /** (L)     Link Pages      */
 
     .linkSection1 {
         display: inline-block;
