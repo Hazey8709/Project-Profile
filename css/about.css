@@ -190,6 +190,7 @@ body {
     margin-top: 6rem;
     margin-bottom: 1rem;
     padding: 0.5rem;
+    box-shadow: 1px 1px 5px 1px black;
 }
 
 .bioText {
@@ -227,7 +228,7 @@ body {
         /* border: 0.1rem solid green; */
         width: 28rem;
         margin-top: 10rem;
-        box-shadow: 1px 1px 5px 1px black;
+        /* box-shadow: 1px 1px 5px 1px white; */
     }
 
     .bioText {

@@ -141,6 +141,111 @@ body {
     color: red;
 }
 
+/*s (M)      ------    Main Container     -------     */
+
+#main_Cont {
+    border: 0.1rem solid red;
+    margin-top: 4.6rem;
+    padding: 0.5rem;
+}
+
+/** (M)     Group-1 Container    */
+.group1_Cont {
+    border: 0.1rem solid yellow;
+    border-radius: 0.5rem;
+    /*! Change color to black  */
+    background-color: #0005;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    padding-top: 1rem;
+}
+
+.group1_Cont > div {
+    border: 0.1rem solid black;
+    border-radius: 0.3rem;
+    background-color: white;
+    width: 20rem;
+    height: 200px;
+    margin: 0 auto;
+}
+
+/** (M)     Group-2 Container    */
+.group2_Cont {
+    border: 0.1rem solid yellow;
+    border-radius: 0.5rem;
+    /*! Change color to black  */
+    background-color: #0005;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    padding-top: 1rem;
+}
+
+.group2_Cont > div {
+    border: 0.1rem solid black;
+    border-radius: 0.3rem;
+    background-color: white;
+    width: 20rem;
+    height: 200px;
+    margin: 0 auto;
+}
+
+/** (M)     Group-3 Container    */
+.group3_Cont {
+    border: 0.1rem solid yellow;
+    border-radius: 0.5rem;
+    /*! Change color to black  */
+    background-color: #0005;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    padding-top: 1rem;
+}
+
+.group3_Cont > div {
+    border: 0.1rem solid black;
+    border-radius: 0.3rem;
+    background-color: white;
+    width: 20rem;
+    height: 200px;
+    margin: 0 auto;
+}
+
+/** (M)     Group-4 Container    */
+.group4_Cont {
+    border: 0.1rem solid yellow;
+    border-radius: 0.5rem;
+    /*! Change color to black  */
+    background-color: #0005;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    padding-top: 1rem;
+}
+
+.group4_Cont > div {
+    border: 0.1rem solid black;
+    border-radius: 0.3rem;
+    background-color: white;
+    width: 20rem;
+    height: 200px;
+    margin: 0 auto;
+}
+
+/** (M)       Group Titles   (All) */
+.group-Title {
+    text-align: center;
+    /* margin: 0 auto; */
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+    font-size: 32px;
+}
+
 /*t (T)          Tablet  Screen (Min-550px / Max-899px)              */
 @media only screen and (min-width: 550px) and (max-width: 899px) {
     /** (T)     Nav    */
