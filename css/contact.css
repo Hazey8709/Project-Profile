@@ -318,7 +318,7 @@ body {
 /*t            Tablet  Screen (Min-550px / Max-899px)          */
 
 @media only screen and (min-width: 550px) and (max-width: 899px) {
-    /** (T)   Nav   */
+     /** (T)    Nav     */
     .liCont {
         /* border: 0.1rem solid blue; */
 
@@ -327,7 +327,7 @@ body {
 
     /** (T)  Contact List Section */
     .contacts_Cont {
-        /* border: 0.1rem solid red; */
+        border: 0.1rem solid red;
         width: 30rem;
         margin: 0 auto;
         /* padding: 0.4rem; */
@@ -490,7 +490,8 @@ body {
         /* display: block; */
         border: 0.1rem solid black;
 
-        height: 100%;
+        /*! Might have to adjust depending whats added to page */
+        height: 80rem;
         /* width: 100%; */
         margin-left: 16rem;
     }

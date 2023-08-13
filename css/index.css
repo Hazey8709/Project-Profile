@@ -215,6 +215,12 @@ body {
 /*t            Tablet  Screen (Min-550px / Max-899px)          */
 
 @media only screen and (min-width: 550px) and (max-width: 899px) {
+    .liCont {
+        /* border: 0.1rem solid blue; */
+
+        margin: 1rem;
+    }
+
     /** (T)   Auto type Title       */
     .autoInput {
         font-size: 48px;
@@ -370,7 +376,8 @@ body {
     /** (L)    -      Main       -          */
     #main_Cont {
         /* display: block; */
-        height: 100%;
+        border: 0.1rem solid red;
+        /* height: 100%; */
         /* width: 100%; */
         margin-left: 16rem;
     }
@@ -406,7 +413,7 @@ body {
         background-color: white;
     }
 
-    /**      Welcome  Intro       */
+    /** (L)      Welcome  Intro       */
     .welcomeIntro_Cont {
         /* display: flex; */
         /* position: absolute; */
