@@ -229,6 +229,137 @@ body {
     margin-top: 3rem;
 }
 
+/** (M)        Awards          */
+
+/*s (M)   Title Container    */
+.awardTitle_Cont {
+    /* border: 0.1rem solid blue; */
+    margin-top: 5rem;
+}
+
+/*s (M)   Title    */
+.awardTitle_Cont h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+/*st (M)    Award Cont  */
+.award_Cont {
+    /* border: 0.1rem solid red; */
+    border-radius: 0.4rem;
+    background-color: black;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    box-shadow: 1px 1px 20px 1px black;
+}
+
+/*s (M)    Award Card  */
+.award-1 {
+    /* border: 0.1rem solid yellow; */
+    border-radius: 0.3rem;
+    height: 17rem;
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px white;
+}
+.award-1 h2 {
+    text-align: center;
+    padding: 0.2rem;
+}
+
+.award-1 img {
+    display: block;
+    /* border: 0.1rem solid green; */
+    border-radius: 0.2rem;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    width: 250px;
+}
+
+.award-1 p {
+    margin-top: 1.2rem;
+    text-align: center;
+}
+
+/** (M)          Transcripts         */
+
+/*st (M)       Transcripts 1     */
+/*s (M)   Title Container    */
+.transTitle_Cont {
+    /* border: 0.1rem solid blue; */
+    margin-top: 5rem;
+}
+
+/*s (M)   Title    */
+.transTitle_Cont h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+/*s (M)    Transcripts Container     */
+.trans_Cont {
+    /* border: 0.1rem solid red; */
+    border-radius: 0.4rem;
+    background-color: black;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    box-shadow: 1px 1px 20px 1px black;
+}
+
+/*st (M)   Transcript Card 1  */
+.trans-1 {
+    display: block;
+    /* border: 0.1rem solid yellow; */
+    border-radius: 0.3rem;
+    height: 17rem;
+    background-color: white;
+    margin-bottom: 1rem;
+    box-shadow: 1px 1px 10px 1px white;
+}
+
+.trans-1 h2 {
+    text-align: center;
+    padding: 0.2rem;
+}
+
+.trans-1 img {
+    display: block;
+    border-radius: 0.2rem;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+    width: 250px;
+}
+
+/*st (M)       Transcript Card 2     */
+.trans-2 {
+    display: block;
+    /* border: 0.1rem solid yellow; */
+    border-radius: 0.3rem;
+    height: 17rem;
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px white;
+}
+
+.trans-2 h2 {
+    text-align: center;
+    padding: 0.2rem;
+}
+
+.trans-2 img {
+    display: block;
+    border-radius: 0.2rem;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+    width: 250px;
+}
+
+.trans-2 p {
+}
+
 /*t            Tablet  Screen (Min-550px / Max-899px)          */
 
 @media only screen and (min-width: 550px) and (max-width: 899px) {
@@ -284,6 +415,17 @@ body {
     .school-2 p:first-of-type {
         margin-top: 2.4rem;
     }
+
+    /** (T)          Transcripts         */
+    /*s (T)   Transcript Card 1  */
+    .trans-1 img {
+        width: 295px;
+    }
+
+    /*s (T)   Transcript Card 2  */
+    .trans-2 img {
+        width: 295px;
+    }
 }
 
 /*t            Laptop Full  Screen (Min-900px / )          */
@@ -332,10 +474,10 @@ body {
         font-weight: bold;
     }
 
-    /** (L)    Main Cont      */
+    /**   (L)      Main Cont      */
     #main_Cont {
         /* border: 0.1rem solid orangered; */
-        height: 50rem;
+        /* height: 50rem; */
         padding: 0.5rem;
     }
 
@@ -417,10 +559,53 @@ body {
 
     .school-2 p {
         text-align: center;
-        /* margin-left: 2.5rem; */
     }
 
     .school-2 p:first-of-type {
         margin-top: 2.4rem;
     }
+
+    /** (L)        Awards          */
+
+    /*s (L)   Title    */
+    .awardTitle_Cont h1 {
+        font-size: 62px;
+    }
+
+    /*st    Container    */
+    .award_Cont {
+        /* border: 0.1rem solid red; */
+        width: 50rem;
+        height: 30rem;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+    /*s (L)    Award Card  */
+    .award-1 {
+        /* border: 0.1rem solid yellow; */
+        width: 45rem;
+        height: 29rem;
+        margin: 0 auto;
+    }
+
+    .award-1 h2 {
+        padding: 0.5rem;
+        font-size: 38px;
+    }
+
+    .award-1 img {
+        width: 450px;
+    }
+
+    .award-1 p {
+        margin-top: 1.2rem;
+        text-align: center;
+    }
+
+    /** (L)           Transcripts          */
+    /*s (L)   Transcript Card 1   */
+/*T   */
+/*T   */
+    /*s (L)   Transcript Card 2  */
 }

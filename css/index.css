@@ -398,7 +398,8 @@ body {
     .title_Cont {
         /* display: flex; */
         /* position: absolute; */
-        border: 0.1rem solid red;
+        /* border: 0.1rem solid red; */
+        border-radius: 0.2rem;
         margin-top: 10rem;
         margin-left: 2rem;
         float: left;
@@ -406,7 +407,7 @@ body {
     }
 
     .title_Cont p {
-        border: 0.1rem solid blue;
+        /* border: 0.1rem solid blue; */
         border-radius: 0.2rem;
         font-size: 48px;
         padding: 0.5rem;
