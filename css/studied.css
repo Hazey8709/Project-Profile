@@ -284,7 +284,7 @@ body {
 
 /** (M)          Transcripts         */
 
-/*st (M)       Transcripts 1     */
+/*st (M)       Transcripts      */
 /*s (M)   Title Container    */
 .transTitle_Cont {
     /* border: 0.1rem solid blue; */
@@ -355,9 +355,6 @@ body {
     margin: 0 auto;
     margin-top: 0.2rem;
     width: 250px;
-}
-
-.trans-2 p {
 }
 
 /*t            Tablet  Screen (Min-550px / Max-899px)          */
@@ -474,7 +471,7 @@ body {
         font-weight: bold;
     }
 
-    /**   (L)      Main Cont      */
+    /**   (L)         Main Container          */
     #main_Cont {
         /* border: 0.1rem solid orangered; */
         /* height: 50rem; */
@@ -604,8 +601,52 @@ body {
     }
 
     /** (L)           Transcripts          */
-    /*s (L)   Transcript Card 1   */
-/*T   */
-/*T   */
-    /*s (L)   Transcript Card 2  */
+
+    /*s (L)   Title    */
+    .transTitle_Cont h1 {
+        font-size: 62px;
+    }
+
+    /*s (L)    Transcripts Container     */
+    .trans_Cont {
+        /* border: 0.1rem solid red; */
+        margin-bottom: 5rem;
+    }
+
+    /*st (L)   Transcript Card 1  */
+    .trans-1 {
+        display: inline-block;
+        /* border: 0.1rem solid yellow; */
+        width: 45%;
+        height: 25rem;
+        margin-left: 1rem;
+    }
+
+    .trans-1 h2 {
+        font-size: 38px;
+    }
+
+    .trans-1 img {
+        margin-top: 1rem;
+        width: 350px;
+    }
+
+    /*st (L)       Transcript Card 2     */
+    .trans-2 {
+        display: block;
+        /* border: 0.1rem solid yellow; */
+        width: 45%;
+        height: 25rem;
+        margin-right: 1rem;
+        float: right;
+    }
+
+    .trans-2 h2 {
+        font-size: 38px;
+    }
+
+    .trans-2 img {
+        margin-top: 1rem;
+        width: 350px;
+    }
 }
