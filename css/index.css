@@ -212,11 +212,16 @@ body {
     font-size: 32px;
 }
 
+/** (M)      Groups Container     */
+.groups_Cont {
+    border: 0.1rem solid yellow;
+}
+
 /** (M)       Group Titles   (All) */
 .group-Title {
     text-align: center;
-    /* margin: 0 auto; */
-    margin-top: 5rem;
+
+    margin-top: 1rem;
     margin-bottom: 0.5rem;
     font-size: 32px;
 }
@@ -224,12 +229,13 @@ body {
 /** (M)     Projects-1 Container    */
 .projects1_Cont {
     display: flex;
-    /* border: 0.1rem solid yellow; */
+    border: 0.1rem solid green;
     border-radius: 0.5rem;
     /*! Change color to black  */
     background-color: #0005;
     width: 93%;
     margin: 0 auto;
+    margin-top: 2rem;
     margin-bottom: 3rem;
     flex-wrap: wrap;
     gap: 0.5rem;
@@ -276,6 +282,39 @@ body {
     .welcomeIntro_Text:first-letter {
         font-size: 38px;
     }
+
+    /** (T)       Group Titles   (All) */
+    .group-Title {
+        font-size: 38px;
+    }
+
+    /** (T)     Projects-1 Container    */
+    .projects1_Cont {
+        /* display: flex; */
+        border: 0.1rem solid green;
+        /* border-radius: 0.5rem; */
+        /*! Change color to black  */
+        /* background-color: #0005; */
+        width: 93%;
+        /* margin: 0 auto; */
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        /* flex-wrap: wrap; */
+        /* gap: 0.5rem; */
+        /* padding: 0.5rem; */
+        /* padding-top: 1rem; */
+    }
+
+    .projects1_Cont > div {
+        border: 0.1rem solid black;
+        /* border-radius: 0.3rem; */
+        /* background-color: white; */
+        width: 25rem;
+        height: 20rem;
+        /* margin: 0 auto; */
+    }
+
+    /*t        Left off on Live Projects box on home page  */
 }
 
 /** --------------------------------------------- */
