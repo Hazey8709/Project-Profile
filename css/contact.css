@@ -318,7 +318,7 @@ body {
 /*t            Tablet  Screen (Min-550px / Max-899px)          */
 
 @media only screen and (min-width: 550px) and (max-width: 899px) {
-     /** (T)    Nav     */
+    /** (T)    Nav     */
     .liCont {
         /* border: 0.1rem solid blue; */
 
@@ -327,9 +327,12 @@ body {
 
     /** (T)  Contact List Section */
     .contacts_Cont {
-        border: 0.1rem solid red;
+        /* border: 0.1rem solid red; */
+        border-radius: 0.3rem;
+        background-color: white;
         width: 30rem;
         margin: 0 auto;
+        box-shadow: 1px 1px 5px black;
         /* padding: 0.4rem; */
     }
 
