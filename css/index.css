@@ -192,7 +192,7 @@ body {
 
 /** (M)      Welcome  Intro       */
 .welcomeIntro_Cont {
-    border: 0.1rem solid blue;
+    /* border: 0.1rem solid blue; */
     border-radius: 0.5rem;
     width: 19rem;
     background-color: white;
@@ -215,7 +215,7 @@ body {
 /*st (M)           All Cards  Layout               */
 /** (M)      Groups Container     */
 .groups_Cont {
-    border: 0.1rem solid yellow;
+    /* border: 0.1rem solid yellow; */
     margin-top: 5rem;
 }
 
@@ -231,7 +231,7 @@ body {
 /** (M)     Projects-1 Container    */
 .projects1_Cont {
     display: flex;
-    border: 0.1rem solid green;
+    border: 0.1rem solid black;
     border-radius: 0.5rem;
     /*! Change color to black  */
     background-color: #0005;
@@ -243,15 +243,17 @@ body {
     gap: 0.5rem;
     padding: 0.5rem;
     padding-top: 1rem;
+    box-shadow: 0px 1px 10px black;
 }
 
 .projects1_Cont > div {
-    border: 0.1rem solid blue;
+    border: 0.1rem solid white;
     border-radius: 0.3rem;
     background-color: white;
     width: 20rem;
     height: 310px;
     margin: 0 auto;
+    box-shadow: 0px -1px 10px black;
 }
 
 /*st (M)      All Cards Style        */
@@ -269,12 +271,13 @@ body {
     border: 0.1rem solid gray;
     border-radius: 0.2rem;
     margin: 0 auto;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     width: 150px;
+    height: 175px;
     box-shadow: 1px 1px 5px black;
 }
 
-/** (M)     Card #1-1  Link 1 */
+/** (M)     Card #1-1  (Link 1) */
 .projects1_Cont > div a[title="Website Link"] {
     display: block;
     border: 0.1rem solid black;
@@ -301,7 +304,7 @@ body {
     color: white;
 }
 
-/** (M)     Card #1-1  Link 1 */
+/** (M)     Card #1-1  (Link 2)  */
 .projects1_Cont > div a[title="GitHub Link"] {
     display: block;
     border: 0.1rem solid black;
@@ -367,7 +370,7 @@ body {
     /** (T)     Projects-1 Container    */
     .projects1_Cont {
         /* display: flex; */
-        border: 0.1rem solid green;
+        border: 0.1rem solid black;
         /* border-radius: 0.5rem; */
         /*! Change color to black  */
         /* background-color: #0005; */
