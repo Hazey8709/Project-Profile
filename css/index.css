@@ -212,9 +212,11 @@ body {
     font-size: 32px;
 }
 
+/*st (M)           All Cards  Layout               */
 /** (M)      Groups Container     */
 .groups_Cont {
     border: 0.1rem solid yellow;
+    margin-top: 5rem;
 }
 
 /** (M)       Group Titles   (All) */
@@ -244,12 +246,86 @@ body {
 }
 
 .projects1_Cont > div {
-    border: 0.1rem solid black;
+    border: 0.1rem solid blue;
     border-radius: 0.3rem;
     background-color: white;
     width: 20rem;
-    height: 200px;
+    height: 310px;
     margin: 0 auto;
+}
+
+/*st (M)      All Cards Style        */
+/** (M)   All Cards Titles    */
+.projects1_Cont > div > h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    margin-top: 0.2rem;
+}
+
+/** (M)    All Cards Images    */
+.projects1_Cont > div > img {
+    display: block;
+    border: 0.1rem solid gray;
+    border-radius: 0.2rem;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    width: 150px;
+    box-shadow: 1px 1px 5px black;
+}
+
+/** (M)     Card #1-1  Link 1 */
+.projects1_Cont > div a[title="Website Link"] {
+    display: block;
+    border: 0.1rem solid black;
+    border-top: none;
+    border-radius: 0.2rem;
+    background: linear-gradient(to bottom, #f8f9f9 0.5%, #0005 100%);
+    color: black;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 6rem;
+    padding: 0.1rem;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.539);
+}
+
+.projects1_Cont > div a[title="Website Link"]:hover {
+    background: linear-gradient(
+        to bottom,
+        #f8f9f9 5%,
+        rgba(0, 0, 0, 0.732) 100%
+    );
+    color: white;
+}
+
+/** (M)     Card #1-1  Link 1 */
+.projects1_Cont > div a[title="GitHub Link"] {
+    display: block;
+    border: 0.1rem solid black;
+    border-radius: 0.2rem;
+    border-top: none;
+    background: linear-gradient(to bottom, #f8f9f9 0.5%, #0005 100%);
+    color: black;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    width: 6rem;
+    padding: 0.1rem;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.539);
+}
+
+.projects1_Cont > div a[title="GitHub Link"]:hover {
+    background: linear-gradient(
+        to bottom,
+        #f8f9f9 5%,
+        rgba(0, 0, 0, 0.732) 100%
+    );
+    color: white;
 }
 
 /*t            Tablet  Screen (Min-550px / Max-899px)          */
