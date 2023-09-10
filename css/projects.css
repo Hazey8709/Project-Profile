@@ -138,109 +138,129 @@ body {
     color: red;
 }
 
-/*st (M)            Main Content         */
+/*t (M)            Main Content         */
 #main_Cont {
     border: 0.1rem solid red;
     margin-top: 4.6rem;
     padding: 0.5rem;
 }
 
-/*st (M)           Groups                  */
-/** (M)     Group-1 Container    */
-.group1_Cont {
-    border: 0.1rem solid yellow;
-    border-radius: 0.5rem;
-    /*! Change color to black  */
-    background-color: #0005;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    padding: 0.5rem;
-    padding-top: 1rem;
+/*st (M)          Card  Groups                  */
+/** (M)      Group Container    (all-Cards) */
+.groups_Cont {
+    /* border: 0.1rem solid yellow; */
+    margin-top: 5rem;
 }
 
-.group1_Cont > div {
-    border: 0.1rem solid black;
-    border-radius: 0.3rem;
-    background-color: white;
-    width: 20rem;
-    height: 200px;
-    margin: 0 auto;
-}
-
-/** (M)     Group-2 Container    */
-.group2_Cont {
-    border: 0.1rem solid yellow;
-    border-radius: 0.5rem;
-    /*! Change color to black  */
-    background-color: #0005;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    padding: 0.5rem;
-    padding-top: 1rem;
-}
-
-.group2_Cont > div {
-    border: 0.1rem solid black;
-    border-radius: 0.3rem;
-    background-color: white;
-    width: 20rem;
-    height: 200px;
-    margin: 0 auto;
-}
-
-/** (M)     Group-3 Container    */
-.group3_Cont {
-    border: 0.1rem solid yellow;
-    border-radius: 0.5rem;
-    /*! Change color to black  */
-    background-color: #0005;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    padding: 0.5rem;
-    padding-top: 1rem;
-}
-
-.group3_Cont > div {
-    border: 0.1rem solid black;
-    border-radius: 0.3rem;
-    background-color: white;
-    width: 20rem;
-    height: 200px;
-    margin: 0 auto;
-}
-
-/** (M)     Group-4 Container    */
-.group4_Cont {
-    border: 0.1rem solid yellow;
-    border-radius: 0.5rem;
-    /*! Change color to black  */
-    background-color: #0005;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    padding: 0.5rem;
-    padding-top: 1rem;
-}
-
-.group4_Cont > div {
-    border: 0.1rem solid black;
-    border-radius: 0.3rem;
-    background-color: white;
-    width: 20rem;
-    height: 200px;
-    margin: 0 auto;
-}
-
-/** (M)       Group Titles   (All) */
+/** (M)       Group Titles   (All-Cards) */
 .group-Title {
     text-align: center;
-    /* margin: 0 auto; */
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-bottom: 0.5rem;
     font-size: 32px;
+}
+
+/** (M)     Projects Container    (All Cards) */
+.projects_Cont {
+    display: flex;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+    /*! Change color to black  */
+    background-color: #0005;
+    width: 93%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    padding-top: 1rem;
+    box-shadow: 0px 1px 10px black;
+}
+
+.projects_Cont > div {
+    border: 0.1rem solid white;
+    border-radius: 0.3rem;
+    background-color: white;
+    width: 20rem;
+    height: 310px;
+    margin: 0 auto;
+    box-shadow: 0px -1px 10px black;
+}
+
+/*st (M)      All Cards Style        */
+/** (M)   All Cards Titles    */
+.projects_Cont > div > h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    margin-top: 0.2rem;
+}
+
+/** (M)    All Cards Images    */
+.projects_Cont > div > img {
+    display: block;
+    border: 0.1rem solid gray;
+    border-radius: 0.2rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 150px;
+    height: 175px;
+    box-shadow: 1px 1px 5px black;
+}
+
+/** (M)     Card  (Link 1) */
+.projects_Cont > div a[title="Website Link"] {
+    display: block;
+    border: 0.1rem solid black;
+    border-top: none;
+    border-radius: 0.2rem;
+    background: linear-gradient(to bottom, #f8f9f9 0.5%, #0005 100%);
+    color: black;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 6rem;
+    padding: 0.1rem;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.539);
+}
+
+.projects_Cont > div a[title="Website Link"]:hover {
+    background: linear-gradient(
+        to bottom,
+        #f8f9f9 5%,
+        rgba(0, 0, 0, 0.732) 100%
+    );
+    color: white;
+}
+
+/** (M)     Card  (Link 2)  */
+.projects_Cont > div a[title="GitHub Link"] {
+    display: block;
+    border: 0.1rem solid black;
+    border-radius: 0.2rem;
+    border-top: none;
+    background: linear-gradient(to bottom, #f8f9f9 0.5%, #0005 100%);
+    color: black;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    width: 6rem;
+    padding: 0.1rem;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.539);
+}
+
+.projects_Cont > div a[title="GitHub Link"]:hover {
+    background: linear-gradient(
+        to bottom,
+        #f8f9f9 5%,
+        rgba(0, 0, 0, 0.732) 100%
+    );
+    color: white;
 }
 
 /*t (T)          Tablet  Screen (Min-550px / Max-899px)              */

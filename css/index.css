@@ -591,4 +591,26 @@ body {
     .p {
         margin-top: 30rem;
     }
+
+    /*st (L)      All Cards Style        */
+    /** (L)       Group Titles   (All) */
+    .group-Title {
+        font-size: 42px;
+        text-shadow: 1px 1px 1px white;
+        margin-top: 30rem;
+    }
+
+    /** (L)     Projects-1 Container    */
+    /* .projects1_Cont {
+        border: 0.1rem solid black;
+        width: 93%;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    } */
+
+    /* .projects1_Cont > div {
+        border: 0.1rem solid black;
+        width: 25rem;
+        height: 20rem;
+    } */
 }
