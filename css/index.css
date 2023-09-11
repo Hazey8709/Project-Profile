@@ -528,7 +528,7 @@ body {
     /** (L)    -      Main       -          */
     #main_Cont {
         /* display: block; */
-        border: 0.1rem solid red;
+        border: 0.1rem solid black;
         /* height: 100%; */
         /* width: 100%; */
         margin-left: 16rem;

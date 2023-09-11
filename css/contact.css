@@ -506,7 +506,7 @@ body {
     }
 
     .pageTitle_Cont h3 {
-        border: 0.1rem solid yellow;
+        /* border: 0.1rem solid yellow; */
         /* width: 90%; */
         height: 3rem;
         /* margin: 0 auto; */
