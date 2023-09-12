@@ -186,6 +186,11 @@ body {
     color: black;
 }
 
+/*! (M)     Special Settings       */
+.spanLaptop {
+    display: none;
+}
+
 /** (M)      Contact  Form          */
 #form_Cont {
     border: 0.2rem outset white;
@@ -595,10 +600,6 @@ body {
         /* margin-top: 0.1rem; */
     }
 
-    /* #detailsInput:hover {
-        border: 0.1rem outset black;
-    } */
-
     #submitBtn {
         display: block;
         /* border: 0.1rem outset black; */
@@ -656,5 +657,14 @@ body {
         /* word-break: break-all; */
         /* list-style-type: upper-roman; */
         font-size: 18px;
+    }
+
+    /*! (L)   Special Settings */
+    .spanMobile {
+        display: none;
+    }
+
+    .spanLaptop {
+        display: inline;
     }
 }
