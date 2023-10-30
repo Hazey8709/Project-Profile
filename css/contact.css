@@ -311,7 +311,8 @@ body {
     word-break: keep-all;
     text-decoration: none;
     font-weight: bold;
-    color: darkblue;
+    color: white;
+    text-shadow: 1px 1px 1px black;
 }
 
 .list_Cont li a:hover {
