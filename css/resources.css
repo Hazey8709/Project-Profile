@@ -141,12 +141,125 @@ body {
     color: red;
 }
 
-/*s (M)      ------    Main Container     -------     */
+/*! (M)      ------    Main Container     -------     */
 
 #main_Cont {
     border: 0.1rem solid red;
     margin-top: 4.6rem;
     padding: 0.5rem;
+}
+
+/** (M)    Page Title      */
+#main_Cont > h1 {
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 42px;
+    text-shadow: 1px 1px 1px white;
+}
+
+/** (M)  section Title    */
+#center > h2 {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+/*? (M)          Special setting          */
+#center {
+    display: block;
+    /* border: 0.1rem solid black; */
+    border-radius: 0.3rem;
+    height: 10rem;
+    text-align: center;
+    margin: 1rem;
+    padding: 0.1rem;
+    box-shadow: 1px 1px 10px #0005;
+}
+
+/** (M)    Links      (All) */
+#center a {
+    display: inline-block;
+    margin-top: 0.2rem;
+    color: lightblue;
+    text-decoration: none;
+    padding: 0.2rem;
+}
+
+/** (M)  Items  Hover   */
+#center a:hover {
+    color: green;
+}
+
+/** (M)  Container    */
+#index_Cont {
+    display: block;
+    border: 0.1rem solid black;
+    border-radius: 0.3rem;
+    background-color: white;
+    margin-top: 1.5rem;
+    /* width: "10px"; */
+    /* height: "30rem"; */
+}
+
+.items_Cont {
+    border: 0.1rem solid white;
+    border-radius: 0.3rem;
+    background-color: white;
+
+    /* width: "1rem"; */
+    /* height: "30rem"; */
+    margin: 0.5rem;
+    box-shadow: 1px 1px 10px black;
+}
+
+/** (M)  section Title    */
+.items_Cont > h2 {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+/** (M)    Cards    (All)  */
+.items {
+    /* border: 0.1rem solid black; */
+    border-radius: 0.3rem;
+    /* width: 18rem; */
+    height: 6rem;
+    text-align: center;
+    margin: 1rem;
+    padding: 0.1rem;
+    box-shadow: 1px 1px 10px #0005;
+}
+
+/* * (M)  Card Title    (All) */
+/* .items > h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+} */
+
+/** (M)    Links      (All) */
+.items > a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: lightblue;
+    text-decoration: none;
+    padding: 0.2rem;
+}
+
+/** (M)  Items  Hover   */
+.items a:hover {
+    color: green;
+}
+
+/** (M) Card Project Title */
+#projectTitle {
+    /* margin-bottom: 2rem; */
+    font-weight: bold;
+    color: blue;
+}
+
+#projectTitle:hover {
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 /** (M)     Group-1 Container    */

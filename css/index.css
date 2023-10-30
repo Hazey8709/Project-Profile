@@ -392,8 +392,6 @@ body {
         height: 20rem;
         /* margin: 0 auto; */
     }
-
-    /*t        Left off on Live Projects box on home page  */
 }
 
 /** --------------------------------------------- */
@@ -597,7 +595,7 @@ body {
     .group-Title {
         font-size: 42px;
         text-shadow: 1px 1px 1px white;
-        margin-top: 30rem;
+        margin-top: 50rem;
     }
 
     /** (L)     Projects-1 Container    */
@@ -613,4 +611,12 @@ body {
         width: 25rem;
         height: 20rem;
     } */
+}
+
+/** ----------------------------------------- */
+/*T               Full Screen         (1370px)   */
+@media only screen and (min-width: 1370px) {
+    .group-Title {
+        margin-top: 30rem;
+    }
 }
