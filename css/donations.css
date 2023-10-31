@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/** (M)    Navigation      */
+.nav_Cont {
+    display: flex;
+    border: 0.1rem solid black;
+    background-color: black;
+    height: 4rem;
+    /* margin: 0 auto; */
+}
+
+.nav_Cont ul {
+    /* display: ; */
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    /* margin-right: auto; */
+}
+
+.nav_Cont li {
+    display: inline-block;
+    /* border: 0.1rem solid red; */
+    margin: 0.5rem;
+    padding: 0.3rem;
+}
+
+.nav_Cont a {
+    border: 0.1rem solid white;
+    border-radius: 0.2rem;
+    color: black;
+    background-color: white;
+    padding: 0.2rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*s (M)     Nav Hover     */
+.nav_Cont a:hover {
+    color: white;
+    background-color: black;
+}
+
+.nav_Cont a:active {
+    color: green;
+    /* background-color: black; */
+}
+
+/** (M)    Page Title  */
+.pageTitle_Cont {
+    /* border: 0.1rem solid red; */
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.pageTitle_Cont h1 {
+    font-size: 32px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+/*st (M)       Main Content          */
+
+.Container {
+    /* border: 0.1rem solid blue; */
+    border-radius: 0.4rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    width: 95%;
+}
+
+.Container img {
+    border-radius: 0.3rem;
+    width: 100%;
+    height: 100%;
+}
+
+/*t (L)            Laptop  View                        */
+@media only screen and (min-width: 900px) {
+    /** (L)    Navigation      */
+    .nav_Cont {
+        height: 5rem;
+    }
+
+    .nav_Cont ul {
+        margin-top: 0.5rem;
+    }
+
+    .nav_Cont li {
+        /* display: inline-block; */
+        /* border: 0.1rem solid red; */
+        margin: 1rem;
+        /* padding: 0.3rem; */
+    }
+
+    .nav_Cont a {
+        border: 0.2rem solid yellow;
+        border-radius: 0.2rem;
+        color: black;
+        background-color: white;
+        padding: 0.3rem;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    /** (L)    Page Title   */
+    .pageTitle_Cont h1 {
+        font-size: 68px;
+        font-family: cursive;
+        font-weight: bold;
+    }
+}
