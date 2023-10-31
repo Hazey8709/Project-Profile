@@ -502,7 +502,7 @@ body {
     /** (L)    -      Main       -          */
     #main_Cont {
         /* display: block; */
-        border: 0.1rem solid red;
+        /* border: 0.1rem solid red; */
 
         /*! Might have to adjust depending whats added to page */
         height: 85rem;
