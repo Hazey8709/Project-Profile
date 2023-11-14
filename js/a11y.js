@@ -77,6 +77,15 @@ const handleArrowEvent = (e, items, currentRegion) => {
 };
 
 const handleClick = (e) => {
+    // if (e.target.classList.contains("navBtns")) {
+    //     // Only play sound when a navigation button is clicked
+    //     playSound();
+    // }
+
+    //s Play the mouse click sound
+    const audioClick = document.getElementById("audioClick");
+    audioClick.play();
+
     logInput(e.target.innerHTML);
 };
 
