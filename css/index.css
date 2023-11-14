@@ -1,4 +1,14 @@
 /*t                    Mobile Version                          */
+/*!    (A11y)   Focus-Style     */
+[tabindex="0"]:focus {
+    outline: 2px solid red; /* Add your preferred focus style */
+}
+
+a:focus {
+    border-radius: 0.2rem;
+    outline: 4px solid red; /* Add your preferred focus style */
+    outline-style: ridge;
+}
 
 /**   --       Nav / Profile Bar  CSS for All Pages       --     */
 
@@ -20,7 +30,7 @@ body {
     height: 4rem;
 }
 
-.ulCont {
+#ulCont {
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -407,7 +417,7 @@ body {
         /* height: 4rem; */
     }
 
-    .ulCont {
+    #ulCont {
         /* border: 0.1rem outset purple; */
         /* display: flex; */
         /* flex-direction: row; */

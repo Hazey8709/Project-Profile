@@ -19,35 +19,65 @@
         <title>Home</title>
     </head>
     <body>
-        <nav id="nav">
-            <ul class="ulCont">
-                <li class="liCont">
-                    <a class="navBtns" href="./index.html">Home</a>
+        <!--!      Navigation      -->
+        <nav id="nav" aria-label="Navigation Container">
+            <ul id="ulCont">
+                <li class="liCont" role="region" tabindex="0">
+                    <a
+                        tabindex="-1"
+                        aria-label="Home Button"
+                        class="navBtns"
+                        href="./index.html"
+                        >Home</a
+                    >
                 </li>
-                <li class="liCont">
-                    <a class="navBtns" href="./html/about.html">About</a>
+                <li class="liCont" role="region" tabindex="0">
+                    <a
+                        tabindex="-1"
+                        aria-label="About Button"
+                        class="navBtns"
+                        href="./html/about.html"
+                        >About</a
+                    >
                 </li>
-                <li class="liCont">
-                    <a class="navBtns" href="./html/knowledge.html"
+                <li class="liCont" role="region" tabindex="0">
+                    <a
+                        tabindex="-1"
+                        aria-label="knowledge Button"
+                        class="navBtns"
+                        href="./html/knowledge.html"
                         >Knowledge</a
                     >
                 </li>
-                <li class="liCont">
-                    <a class="navBtns" href="./html/contact.html">Contact</a>
+                <li class="liCont" role="region" tabindex="0">
+                    <a
+                        tabindex="-1"
+                        aria-label="Contact Button"
+                        class="navBtns"
+                        href="./html/contact.html"
+                        >Contact</a
+                    >
                 </li>
             </ul>
         </nav>
 
-        <section id="profileBar">
+        <!--!         Profile Bar  (Media Links)         -->
+        <section id="profileBar" aria-label="Profile Bar">
             <div class="profilePicCont">
                 <img src="#" alt="Profile Pic" />
             </div>
 
-            <div class="iconLinksCont">
+            <div
+                class="iconLinksCont"
+                aria-label="Media Links"
+                role="region"
+                tabindex="0"
+            >
                 <a
                     href="https://www.facebook.com/profile.php?id=100077721983756"
                     title="FaceBook Link"
                     target="_blank"
+                    tabindex="-1"
                     ><i class="fa fa-facebook"></i
                 ></a>
 
@@ -56,6 +86,7 @@
                     class="github"
                     title="GitHub Link"
                     target="_blank"
+                    tabindex="-1"
                     ><i class="fa fa-github"></i
                 ></a>
 
@@ -64,6 +95,7 @@
                     class="twitter"
                     title="Twitter Link"
                     target="_blank"
+                    tabindex="-1"
                     ><i class="fa fa-twitter"></i
                 ></a>
 
@@ -71,6 +103,7 @@
                     href="https://www.linkedin.com/in/jordan-fortin-97980725b/"
                     title="Linkedin Link"
                     target="_blank"
+                    tabindex="-1"
                     ><i class="fa fa-linkedin"></i
                 ></a>
 
@@ -78,29 +111,52 @@
                     href="https://www.youtube.com/channel/UC7fWlqdyFBA1FwEVhtDMcuA"
                     title="Youtube Link"
                     target="_blank"
+                    tabindex="-1"
                     ><i class="fa fa-youtube"></i
                 ></a>
             </div>
 
-            <div id="linkPagesCont">
-                <div class="linkSection1">
-                    <a class="linkPage" href="./html/resources.html"
+            <!--!       Quick Links        -->
+            <div id="linkPagesCont" aria-label="Quick Links">
+                <div class="linkSection1" role="region" tabindex="0">
+                    <a
+                        class="linkPage"
+                        tabindex="-1"
+                        href="./html/resources.html"
                         >Resources</a
                     >
-                    <a class="linkPage" href="./html/studied.html">Education</a>
-                    <a class="linkPage" href="./html/siteIndex.html">Index</a>
+                    <a class="linkPage" tabindex="-1" href="./html/studied.html"
+                        >Education</a
+                    >
+                    <a
+                        class="linkPage"
+                        tabindex="-1"
+                        href="./html/siteIndex.html"
+                        >Index</a
+                    >
                 </div>
 
-                <div class="linkSection2">
-                    <a class="linkPage" href="./html/projects.html">Projects</a>
-                    <a class="linkPage" href="./html/tutorials.html"
+                <div class="linkSection2" role="region" tabindex="0">
+                    <a
+                        class="linkPage"
+                        tabindex="-1"
+                        href="./html/projects.html"
+                        >Projects</a
+                    >
+                    <a
+                        class="linkPage"
+                        tabindex="-1"
+                        href="./html/tutorials.html"
                         >Tutorials</a
                     >
-                    <a class="linkPage" href="./html/qa.html">Q & A</a>
+                    <a class="linkPage" tabindex="-1" href="./html/qa.html"
+                        >Q & A</a
+                    >
                 </div>
             </div>
         </section>
 
+        <!--!           Main Content           -->
         <main id="main_Cont">
             <section class="auto_Cont">
                 <h1 class="autoTitle_Cont">
@@ -130,11 +186,17 @@
                 </p>
             </section>
 
-            <section class="groups_Cont">
+            <!--!             live Projects                  -->
+            <section class="groups_Cont" aria-label="Live Projects">
                 <h3 class="group-Title">Live Projects</h3>
                 <section class="projects1_Cont">
                     <!--s Box #1 -->
-                    <div class="box1-1">
+                    <div
+                        class="box1-1"
+                        aria-label="Project 1"
+                        role="region"
+                        tabindex="0"
+                    >
                         <h1>Responsive Viewer</h1>
 
                         <img
@@ -146,6 +208,7 @@
                             href="http://responsiveviewer.noobiej.tech/"
                             target="_blank"
                             title="Website Link"
+                            tabindex="-1"
                             >Website</a
                         >
 
@@ -153,12 +216,18 @@
                             href="https://github.com/Hazey8709/responsiveViewer"
                             target="_blank"
                             title="GitHub Link"
+                            tabindex="-1"
                             >GitHub</a
                         >
                     </div>
 
                     <!--s Box #2 -->
-                    <div class="box1-2">
+                    <div
+                        class="box1-2"
+                        aria-label="Project 2"
+                        role="region"
+                        tabindex="0"
+                    >
                         <h1>CSS Selectors</h1>
 
                         <img
@@ -170,6 +239,7 @@
                             href="https://css-selectors.noobiej.tech/"
                             target="_blank"
                             title="Website Link"
+                            tabindex="-1"
                             >Website</a
                         >
 
@@ -177,12 +247,18 @@
                             href="https://github.com/Hazey8709/css_Selectors"
                             target="_blank"
                             title="GitHub Link"
+                            tabindex="-1"
                             >GitHub</a
                         >
                     </div>
 
                     <!--s Box #3 -->
-                    <div class="box1-3">
+                    <div
+                        class="box1-3"
+                        aria-label="Project 3"
+                        role="region"
+                        tabindex="0"
+                    >
                         <h1>Calculator</h1>
 
                         <img
@@ -194,6 +270,7 @@
                             href="https://calculator.noobiej.tech/"
                             target="_blank"
                             title="Website Link"
+                            tabindex="-1"
                             >Website</a
                         >
 
@@ -201,12 +278,18 @@
                             href="https://github.com/Hazey8709/calculator-1/blob/main/index.html"
                             target="_blank"
                             title="GitHub Link"
+                            tabindex="-1"
                             >GitHub</a
                         >
                     </div>
 
                     <!--s Box #4 -->
-                    <div class="box1-4">
+                    <div
+                        class="box1-4"
+                        aria-label="Project 4"
+                        role="region"
+                        tabindex="0"
+                    >
                         <h1>Todo List</h1>
 
                         <img
@@ -218,6 +301,7 @@
                             href="http://todo-list.noobiej.tech/"
                             target="_blank"
                             title="Website Link"
+                            tabindex="-1"
                             >Website</a
                         >
 
@@ -225,12 +309,17 @@
                             href="https://github.com/Hazey8709/TodoList-site-axios/tree/main"
                             target="_blank"
                             title="GitHub Link"
+                            tabindex="-1"
                             >GitHub</a
                         >
                     </div>
 
-                    <!--! Box #5 -->
-                    <!-- <div class="box1-5">
+                    <!--s Box #5 -->
+                    <!-- <div class="box1-5"
+                        aria-label="Project 5"
+                        role="region"
+                        tabindex="0"
+                        >
                         <h1>Project Name</h1>
 
                         <img src="" alt="Project-Image" title="Project-Image" />
@@ -238,6 +327,7 @@
                             href="http://noobiej.tech/"
                             target="_blank"
                             title="Website Link"
+                            tabindex="-1"
                             >Website</a
                         >
 
@@ -245,12 +335,17 @@
                             href="https://github.com/Hazey8709"
                             target="_blank"
                             title="GitHub Link"
+                            tabindex="-1"
                             >GitHub</a
                         >
                     </div> -->
 
-                    <!--! Box #6 -->
-                    <!-- <div class="box1-6">
+                    <!--s Box #6 -->
+                    <!-- <div class="box1-6"
+                        aria-label="Project 6"
+                        role="region"
+                        tabindex="0"
+                        >
                         <h1>Project Name</h1>
 
                         <img src="" alt="Project-Image" title="Project-Image" />
@@ -258,6 +353,7 @@
                             href="http://noobiej.tech/"
                             target="_blank"
                             title="Website Link"
+                            tabindex="-1"
                             >Website</a
                         >
 
@@ -265,14 +361,23 @@
                             href="https://github.com/Hazey8709"
                             target="_blank"
                             title="GitHub Link"
+                            tabindex="-1"
                             >GitHub</a
                         >
                     </div> -->
                 </section>
             </section>
+
+            <!--!    Sounds   -->
+            <audio
+                id="audioClick"
+                src="./sounds/mouseClick.mp3"
+                type="audio/mp3"
+            ></audio>
         </main>
 
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
         <script src="./js/script.js" defer></script>
+        <script src="./js/a11y.js" defer></script>
     </body>
 </html>
